@@ -2,7 +2,7 @@ package com.ivan.nikolov.monoids
 
 import org.junit.runner.RunWith
 import org.scalacheck.Arbitrary
-import org.scalatest.junit.JUnitRunner
+import org.scalatestplus.junit.JUnitRunner
 import org.scalatest.prop.Checkers
 import org.scalatest.{FlatSpec, Matchers}
 

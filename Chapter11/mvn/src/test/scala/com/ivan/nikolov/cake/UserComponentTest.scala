@@ -3,7 +3,7 @@ package com.ivan.nikolov.cake
 import com.ivan.nikolov.cake.model.Person
 import org.junit.runner.RunWith
 import org.mockito.Mockito._
-import org.scalatest.junit.JUnitRunner
+import org.scalatestplus.junit.JUnitRunner
 import org.scalatest.mockito.MockitoSugar
 import org.scalatest.{FlatSpec, Matchers}
 
