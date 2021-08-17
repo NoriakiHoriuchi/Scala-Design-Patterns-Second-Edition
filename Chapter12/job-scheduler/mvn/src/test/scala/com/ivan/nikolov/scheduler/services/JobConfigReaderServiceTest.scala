@@ -3,7 +3,7 @@ package com.ivan.nikolov.scheduler.services
 import com.ivan.nikolov.scheduler.TestEnvironment
 import com.ivan.nikolov.scheduler.config.job.{Console, Daily, JobConfig, TimeOptions}
 import org.junit.runner.RunWith
-import org.scalatest.junit.JUnitRunner
+import org.scalatestplus.junit.JUnitRunner
 import org.scalatest.{FlatSpec, Matchers}
 
 @RunWith(classOf[JUnitRunner])

@@ -6,7 +6,7 @@ import com.ivan.nikolov.scheduler.dao._
 import com.ivan.nikolov.scheduler.io.IOServiceComponent
 import com.ivan.nikolov.scheduler.services.JobConfigReaderServiceComponent
 import org.mockito.Mockito._
-import org.scalatest.mockito.MockitoSugar
+import org.scalatestplus.mockito.MockitoSugar
 
 trait TestEnvironment 
   extends AppConfigComponent
