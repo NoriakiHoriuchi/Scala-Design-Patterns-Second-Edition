@@ -12,7 +12,7 @@ publishMavenStyle := true
 
 libraryDependencies ++= {
   val scalazVersion = "7.2.20"
-  val scalacheckVersion = "1.13.4"
+  val scalacheckVersion = "1.13.5"
   Seq(
     "org.slf4j" % "slf4j-log4j12" % "1.7.25",
     "com.typesafe.scala-logging" %% "scala-logging" % "3.7.2",
