@@ -2,7 +2,7 @@ package com.ivan.nikolov.scheduler.dao
 
 import com.ivan.nikolov.scheduler.TestEnvironment
 import org.junit.runner.RunWith
-import org.scalatest.junit.JUnitRunner
+import org.scalatestplus.junit.JUnitRunner
 import org.scalatest.{BeforeAndAfter, FlatSpec, Matchers}
 
 @RunWith(classOf[JUnitRunner])
