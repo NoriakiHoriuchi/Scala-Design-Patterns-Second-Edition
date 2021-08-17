@@ -1,12 +1,12 @@
 package com.ivan.nikolov.monoids
 
 import org.scalacheck.Arbitrary
-import org.scalatest.prop.Checkers
 import org.scalatest.{FlatSpec, Matchers}
 
 import scalaz._
 
 import scalaz.scalacheck.ScalazProperties._
+import org.scalatestplus.scalacheck.Checkers
 
 class MonoidsTest extends FlatSpec with Matchers with Checkers {
 
