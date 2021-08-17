@@ -1,6 +1,6 @@
 package com.ivan.nikolov.cake
 
-import org.scalatest.mockito.MockitoSugar
+import org.scalatestplus.mockito.MockitoSugar
 
 trait TestEnvironment 
   extends UserComponent

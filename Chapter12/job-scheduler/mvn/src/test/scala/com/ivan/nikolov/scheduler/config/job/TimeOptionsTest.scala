@@ -3,7 +3,7 @@ package com.ivan.nikolov.scheduler.config.job
 import java.time.LocalDateTime
 
 import org.junit.runner.RunWith
-import org.scalatest.junit.JUnitRunner
+import org.scalatestplus.junit.JUnitRunner
 import org.scalatest.{FlatSpec, Matchers}
 
 @RunWith(classOf[JUnitRunner])

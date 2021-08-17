@@ -2,8 +2,8 @@ package com.ivan.nikolov.cake
 
 import com.ivan.nikolov.cake.model.Person
 import org.mockito.Mockito._
-import org.scalatest.mockito.MockitoSugar
 import org.scalatest.{FlatSpec, Matchers}
+import org.scalatestplus.mockito.MockitoSugar
 
 class UserComponentTest extends FlatSpec with Matchers with MockitoSugar with TestEnvironment {
   val className = "A"
