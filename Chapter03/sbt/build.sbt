@@ -2,7 +2,7 @@ organization := "com.ivan.nikolov"
 
 name := "unification-sbt"
 
-scalaVersion := "2.12.15"
+scalaVersion := "2.13.8"
 
 scalacOptions := Seq("-unchecked", "-deprecation", "-encoding", "utf8")
 
