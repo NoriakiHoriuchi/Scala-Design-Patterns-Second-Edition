@@ -15,7 +15,7 @@ libraryDependencies ++= {
   val typesafeConfigVersion = "1.4.1"
   val json4sVersion = "3.6.0-M2"
   Seq(
-    "org.slf4j" % "slf4j-log4j12" % "1.7.32",
+    "org.slf4j" % "slf4j-log4j12" % "1.7.35",
     "com.typesafe.scala-logging" %% "scala-logging" % "3.9.4",
     "com.typesafe" % "config" % typesafeConfigVersion,
     "org.json4s" %% "json4s-native" % json4sVersion,
