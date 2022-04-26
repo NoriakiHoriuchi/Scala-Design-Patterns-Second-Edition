@@ -1,8 +1,9 @@
 package com.ivan.nikolov.composition
 
-import org.scalatest.{FlatSpec, Matchers}
+import org.scalatest.flatspec.AnyFlatSpec
+import org.scalatest.matchers.should.Matchers
 
-class TraitACaseScopeTest extends FlatSpec with Matchers {
+class TraitACaseScopeTest extends AnyFlatSpec with Matchers {
   "hello" should "greet properly." in new A {
     hello() should equal("Hello, I am trait A!")
   }
