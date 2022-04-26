@@ -12,7 +12,7 @@ publishMavenStyle := true
 
 libraryDependencies ++= {
   Seq(
-    "org.scalatest" %% "scalatest" % "3.0.9" % "test",
+    "org.scalatest" %% "scalatest" % "3.2.12" % "test",
     "org.mockito" % "mockito-all" % "1.10.19" % "test" // mockito for tests
   )
 }
