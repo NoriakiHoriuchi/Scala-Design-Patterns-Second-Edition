@@ -2,7 +2,7 @@ organization := "com.ivan.nikolov"
 
 name := "abstract-types-sbt"
 
-scalaVersion := "2.13.8"
+scalaVersion := "2.12.15"
 
 scalacOptions := Seq("-unchecked", "-deprecation", "-encoding", "utf8")
 
