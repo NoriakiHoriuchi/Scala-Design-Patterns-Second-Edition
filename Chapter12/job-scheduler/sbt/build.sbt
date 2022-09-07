@@ -11,7 +11,7 @@ javaOptions ++= Seq("-target", "1.8", "-source", "1.8")
 publishMavenStyle := true
 
 libraryDependencies ++= {
-  val akkaVersion = "2.6.16"
+  val akkaVersion = "2.6.20"
   val typesafeConfigVersion = "1.4.1"
   val json4sVersion = "3.6.0-M2"
   Seq(
