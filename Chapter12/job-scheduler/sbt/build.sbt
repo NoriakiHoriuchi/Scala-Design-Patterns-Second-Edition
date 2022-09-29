@@ -22,7 +22,7 @@ libraryDependencies ++= {
     "org.json4s" %% "json4s-jackson" % json4sVersion,
     "com.typesafe.akka" %% "akka-actor" % akkaVersion,
     "com.h2database" % "h2" % "1.4.197",
-    "org.scalatest" %% "scalatest" % "3.0.9" % "test",
+    "org.scalatest" %% "scalatest" % "3.2.14" % "test",
     "org.mockito" % "mockito-all" % "1.10.19" % "test" // mockito for tests
   )
 }
