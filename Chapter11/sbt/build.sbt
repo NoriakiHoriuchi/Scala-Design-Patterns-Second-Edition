@@ -17,7 +17,7 @@ libraryDependencies ++= {
     "commons-codec" % "commons-codec" % "1.15",
     "org.scalaz" %% "scalaz-core" % "7.3.5",
     "com.h2database" % "h2" % "1.4.200",
-    "org.scalatest" %% "scalatest" % "3.0.9" % "test",
+    "org.scalatest" %% "scalatest" % "3.2.15" % "test",
     "org.mockito" % "mockito-all" % "1.10.19" % "test" // mockito for tests
   )
 }
