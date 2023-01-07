@@ -2,7 +2,7 @@ organization := "com.ivan.nikolov"
 
 name := "behavioral-design-patterns-sbt"
 
-scalaVersion := "2.12.16"
+scalaVersion := "2.12.17"
 
 scalacOptions := Seq("-unchecked", "-deprecation", "-encoding", "utf8")
 
