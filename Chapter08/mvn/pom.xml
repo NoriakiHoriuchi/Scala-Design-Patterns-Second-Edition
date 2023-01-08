@@ -10,7 +10,7 @@
     <properties>
         <scala.version>2.12.15</scala.version>
         <scalatest.version>3.0.4</scalatest.version>
-        <json4s.version>3.6.12</json4s.version>
+        <json4s.version>3.6.0-M2</json4s.version>
     </properties>
 
     <dependencies>

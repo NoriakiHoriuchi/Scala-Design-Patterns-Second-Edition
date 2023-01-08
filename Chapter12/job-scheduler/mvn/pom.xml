@@ -12,7 +12,7 @@
         <scalatest.version>3.0.4</scalatest.version>
         <akka.version>2.6.16</akka.version>
         <typesafe.config.version>1.4.1</typesafe.config.version>
-        <json4s.version>3.6.12</json4s.version>
+        <json4s.version>3.6.0-M2</json4s.version>
     </properties>
 
     <dependencies>
