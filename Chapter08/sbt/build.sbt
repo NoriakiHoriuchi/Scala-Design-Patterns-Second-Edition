@@ -11,7 +11,7 @@ javaOptions ++= Seq("-target", "1.8", "-source", "1.8")
 publishMavenStyle := true
 
 libraryDependencies ++= {
-  val json4sVersion = "3.6.0-M2"
+  val json4sVersion = "3.6.12"
   Seq(
     "org.json4s" %% "json4s-native" % json4sVersion,
     "org.json4s" %% "json4s-jackson" % json4sVersion,
