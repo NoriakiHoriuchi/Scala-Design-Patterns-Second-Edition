@@ -2,7 +2,7 @@ organization := "com.ivan.nikolov"
 
 name := "behavioral-design-patterns-sbt"
 
-scalaVersion := "2.12.15"
+scalaVersion := "2.12.17"
 
 scalacOptions := Seq("-unchecked", "-deprecation", "-encoding", "utf8")
 
@@ -16,9 +16,9 @@ libraryDependencies ++= {
     "org.json4s" %% "json4s-native" % json4sVersion,
     "org.json4s" %% "json4s-jackson" % json4sVersion,
     "commons-codec" % "commons-codec" % "1.15",
-    "org.slf4j" % "slf4j-log4j12" % "1.7.32",
+    "org.slf4j" % "slf4j-log4j12" % "1.7.36",
     "com.typesafe.scala-logging" %% "scala-logging" % "3.9.4",
-    "com.github.tototoshi" %% "scala-csv" % "1.3.8",
+    "com.github.tototoshi" %% "scala-csv" % "1.3.10",
     "org.scalatest" %% "scalatest" % "3.0.9" % "test",
     "org.mockito" % "mockito-all" % "1.10.19" % "test" // mockito for tests
   )
