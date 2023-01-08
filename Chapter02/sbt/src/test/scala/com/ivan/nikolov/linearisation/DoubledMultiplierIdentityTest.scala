@@ -1,9 +1,8 @@
 package com.ivan.nikolov.linearisation
 
-import org.scalatest.flatspec.AnyFlatSpec
-import org.scalatest.matchers.should.Matchers
+import org.scalatest.{FlatSpec, Matchers}
 
-class DoubledMultiplierIdentityTest extends AnyFlatSpec with Matchers {
+class DoubledMultiplierIdentityTest extends FlatSpec with Matchers {
 
   class DoubledMultiplierIdentityClass extends DoubledMultiplierIdentity
   
