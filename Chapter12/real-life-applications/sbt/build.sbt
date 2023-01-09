@@ -14,7 +14,7 @@ libraryDependencies ++= {
   val scalazVersion = "7.3.7"
   val scalacheckVersion = "1.17.0"
   Seq(
-    "org.slf4j" % "slf4j-log4j12" % "1.7.36",
+    "org.slf4j" % "slf4j-log4j12" % "2.0.6",
     "com.typesafe.scala-logging" %% "scala-logging" % "3.9.5",
     "org.scalaz" %% "scalaz-core" % scalazVersion,
     "org.scalaz" %% "scalaz-effect" % scalazVersion,
