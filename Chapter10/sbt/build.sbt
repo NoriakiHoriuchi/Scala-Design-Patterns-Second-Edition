@@ -14,7 +14,7 @@ libraryDependencies ++= {
   Seq(
     "org.slf4j" % "slf4j-log4j12" % "1.7.36",
     "com.typesafe.scala-logging" %% "scala-logging" % "3.9.4",
-    "org.scalatest" %% "scalatest" % "3.2.15" % "test",
+    "org.scalatest" %% "scalatest" % "3.0.9" % "test",
     "org.mockito" % "mockito-all" % "1.10.19" % "test" // mockito for tests
   )
 }

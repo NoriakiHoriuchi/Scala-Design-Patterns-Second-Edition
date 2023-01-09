@@ -1,11 +1,9 @@
 package com.ivan.nikolov.scheduler.dao
 
 import com.ivan.nikolov.scheduler.TestEnvironment
-import org.scalatest.BeforeAndAfter
-import org.scalatest.flatspec.AnyFlatSpec
-import org.scalatest.matchers.should.Matchers
+import org.scalatest.{BeforeAndAfter, FlatSpec, Matchers}
 
-class DaoServiceTest extends AnyFlatSpec with Matchers with BeforeAndAfter with TestEnvironment {
+class DaoServiceTest extends FlatSpec with Matchers with BeforeAndAfter with TestEnvironment {
 
   override val databaseService = new H2DatabaseService
   override val migrationService = new MigrationService

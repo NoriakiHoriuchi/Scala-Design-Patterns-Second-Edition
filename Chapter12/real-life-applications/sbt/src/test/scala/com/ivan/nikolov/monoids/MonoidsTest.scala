@@ -1,15 +1,14 @@
 package com.ivan.nikolov.monoids
 
 import org.scalacheck.Arbitrary
+import org.scalatest.{FlatSpec, Matchers}
 
 import scalaz._
 
 import scalaz.scalacheck.ScalazProperties._
 import org.scalatestplus.scalacheck.Checkers
-import org.scalatest.flatspec.AnyFlatSpec
-import org.scalatest.matchers.should.Matchers
 
-class MonoidsTest extends AnyFlatSpec with Matchers with Checkers {
+class MonoidsTest extends FlatSpec with Matchers with Checkers {
 
   implicit def arbString(implicit ev: Arbitrary[String]): Arbitrary[String] =
     Arbitrary { ev.arbitrary.map(identity) }

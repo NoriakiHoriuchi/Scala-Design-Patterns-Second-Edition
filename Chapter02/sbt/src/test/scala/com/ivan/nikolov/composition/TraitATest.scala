@@ -1,9 +1,8 @@
 package com.ivan.nikolov.composition
 
-import org.scalatest.flatspec.AnyFlatSpec
-import org.scalatest.matchers.should.Matchers
+import org.scalatest.{FlatSpec, Matchers}
 
-class TraitATest extends AnyFlatSpec with Matchers with A {
+class TraitATest extends FlatSpec with Matchers with A {
 
   "hello" should "greet properly." in {
     hello() should equal("Hello, I am trait A!")
