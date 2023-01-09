@@ -2,9 +2,10 @@ package com.ivan.nikolov.scheduler.services
 
 import com.ivan.nikolov.scheduler.TestEnvironment
 import com.ivan.nikolov.scheduler.config.job.{Console, Daily, JobConfig, TimeOptions}
-import org.scalatest.{FlatSpec, Matchers}
+import org.scalatest.flatspec.AnyFlatSpec
+import org.scalatest.matchers.should.Matchers
 
-class JobConfigReaderServiceTest extends FlatSpec with Matchers with TestEnvironment {
+class JobConfigReaderServiceTest extends AnyFlatSpec with Matchers with TestEnvironment {
 
   override val ioService: IOService = new IOService
   override val jobConfigReaderService: JobConfigReaderService = new JobConfigReaderService
