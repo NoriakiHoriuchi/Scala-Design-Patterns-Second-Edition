@@ -15,7 +15,7 @@ libraryDependencies ++= {
         "org.apache.spark" % "spark-core_2.11" % "2.2.3",
         "com.datastax.spark" % "spark-cassandra-connector_2.11" % "2.5.2",
         "junit" % "junit" % "4.13.2" % "test",
-        "org.scalatest" %% "scalatest" % "3.0.9" % "test",
+        "org.scalatest" %% "scalatest" % "3.2.16" % "test",
         "org.mockito" % "mockito-all" % "1.10.19" % "test" // mockito for tests
     )
 }
