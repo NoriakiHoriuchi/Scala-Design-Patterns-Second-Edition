@@ -2,7 +2,7 @@ organization := "com.ivan.nikolov"
 
 name := "job-scheduler-sbt"
 
-scalaVersion := "2.12.17"
+scalaVersion := "2.12.18"
 
 scalacOptions := Seq("-unchecked", "-deprecation", "-encoding", "utf8")
 
