@@ -2,9 +2,10 @@ package com.ivan.nikolov.scheduler.config.job
 
 import java.time.LocalDateTime
 
-import org.scalatest.{FlatSpec, Matchers}
+import org.scalatest.flatspec.AnyFlatSpec
+import org.scalatest.matchers.should.Matchers
 
-class TimeOptionsTest extends FlatSpec with Matchers {
+class TimeOptionsTest extends AnyFlatSpec with Matchers {
 
   "getInitialDelay" should "get the right initial delay for hourly less than an hour after now." in {
     val now = LocalDateTime.of(2018, 3, 20, 12, 43, 10)
