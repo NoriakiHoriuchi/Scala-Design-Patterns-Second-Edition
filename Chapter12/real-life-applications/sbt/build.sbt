@@ -20,7 +20,7 @@ libraryDependencies ++= {
     "org.scalaz" %% "scalaz-effect" % scalazVersion,
     "org.scalacheck" %% "scalacheck" % scalacheckVersion % "test",
     "org.scalaz" %% "scalaz-scalacheck-binding" % scalazVersion % "test",
-    "org.scalatest" %% "scalatest" % "3.0.9" % "test",
+    "org.scalatest" %% "scalatest" % "3.2.17" % "test",
     "org.mockito" % "mockito-all" % "1.10.19" % "test" // mockito for tests
   )
 }
