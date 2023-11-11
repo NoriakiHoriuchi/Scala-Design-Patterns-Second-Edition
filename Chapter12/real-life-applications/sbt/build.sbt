@@ -11,7 +11,7 @@ javaOptions ++= Seq("-target", "1.8", "-source", "1.8")
 publishMavenStyle := true
 
 libraryDependencies ++= {
-  val scalazVersion = "7.3.7"
+  val scalazVersion = "7.3.8"
   val scalacheckVersion = "1.17.0"
   Seq(
     "org.slf4j" % "slf4j-log4j12" % "2.0.6",
