@@ -18,7 +18,7 @@ libraryDependencies ++= {
     "commons-codec" % "commons-codec" % "1.15",
     "org.slf4j" % "slf4j-log4j12" % "2.0.6",
     "com.typesafe.scala-logging" %% "scala-logging" % "3.9.5",
-    "com.github.tototoshi" %% "scala-csv" % "1.3.10",
+    "com.github.tototoshi" %% "scala-csv" % "1.4.0",
     "org.scalatest" %% "scalatest" % "3.0.9" % "test",
     "org.mockito" % "mockito-all" % "1.10.19" % "test" // mockito for tests
   )
