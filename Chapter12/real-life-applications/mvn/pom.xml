@@ -8,7 +8,7 @@
     <artifactId>real-life-applications</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <properties>
-        <scala.version>2.12.17</scala.version>
+        <scala.version>2.12.20</scala.version>
         <scalatest.version>3.0.4</scalatest.version>
         <scalaz.version>7.3.7</scalaz.version>
         <scalacheck.version>1.17.0</scalacheck.version>
